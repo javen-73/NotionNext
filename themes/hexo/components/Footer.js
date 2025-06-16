@@ -36,6 +36,10 @@ const Footer = ({ title }) => {
           {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
         </h1>
         <PoweredBy className='justify-center' />
+                            <span className='no-underline ml-4'>
+                    本站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" >
+                  <img src="https://xiaoti.oss-cn-hangzhou.aliyuncs.com/upyun.png"   alt="又拍云" width="60px" height="20px" style={{display: 'inline'}}  /> </a>提供CDN加速
+
       </span>
       <br />
     </footer>
